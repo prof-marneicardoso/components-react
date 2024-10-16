@@ -1,0 +1,30 @@
+
+header {
+    background-color: #4d8585;
+    color: #f9f9f9;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span {
+    color: #f900a6;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header a {
+    padding: 0.5rem;
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: #f900a6;
+}
